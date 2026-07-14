@@ -1,0 +1,100 @@
+{
+  "placeholderImages": [
+    {
+      "id": "scheme-1",
+      "description": "A vibrant green field with a tractor, representing mechanization.",
+      "imageUrl": "https://images.unsplash.com/photo-1594771804886-a933bb2d609b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0cmFjdG9yJTIwZmllbGR8ZW58MHx8fHwxNzYyMTY3NTE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tractor field"
+    },
+    {
+      "id": "scheme-2",
+      "description": "Close-up of irrigation sprinklers watering a crop field.",
+      "imageUrl": "https://images.unsplash.com/photo-1743706017581-5bc067dde7c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpcnJpZ2F0aW9uJTIwc3ByaW5rbGVyc3xlbnwwfHx8fDE3NjIxNDk5NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "irrigation sprinklers"
+    },
+    {
+      "id": "scheme-3",
+      "description": "A farmer holding a soil sample, representing soil health.",
+      "imageUrl": "https://images.unsplash.com/photo-1624806992928-9c7a04a8383d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYXJtZXIlMjBzb2lsfGVufDB8fHx8MTc2MjE5NTI0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "farmer soil"
+    },
+    {
+      "id": "scheme-4",
+      "description": "Bags of fertilizer in a storage unit.",
+      "imageUrl": "https://images.unsplash.com/photo-1759411364609-aeb30eb034e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmZXJ0aWxpemVyJTIwYmFnc3xlbnwwfHx8fDE3NjIxNjk5OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fertilizer bags"
+    },
+    {
+      "id": "scheme-5",
+      "description": "A lush green terraced field, representing sustainable agriculture.",
+      "imageUrl": "https://images.unsplash.com/photo-1594771804886-a933bb2d609b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0cmFjdG9yJTIwZmllbGR8ZW58MHx8fHwxNzYyMTY3NTE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sustainable agriculture"
+    },
+    {
+      "id": "scheme-6",
+      "description": "Hands holding fresh organic vegetables.",
+      "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmdhbmljJTIwZmFybWluZ3xlbnwwfHx8fDE3NjIyOTMxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "organic farming"
+    },
+    {
+      "id": "scheme-7",
+      "description": "A smiling farmer standing in a field.",
+      "imageUrl": "https://images.unsplash.com/photo-1624806992928-9c7a04a8383d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYXJtZXIlMjBzb2lsfGVufDB8fHx8MTc2MjE5NTI0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy farmer"
+    },
+    {
+      "id": "crop-diagnosis-placeholder",
+      "description": "A placeholder image showing a lush green leaf, inviting users to upload a photo for diagnosis.",
+      "imageUrl": "https://images.unsplash.com/photo-1524055988636-436cfa46e59e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z3JlZW4lMjBsZWFmfGVufDB8fHx8MTc2MjE5NDU3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green leaf"
+    },
+    {
+      "id": "loan-kcc",
+      "description": "A hand holding a credit card over a payment terminal.",
+      "imageUrl": "https://images.unsplash.com/photo-1715635845679-f44947f29383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjcmVkaXQlMjBjYXJkJTIwcGF5bWVudHxlbnwwfHx8fDE3NjIxOTc5NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "credit card payment"
+    },
+    {
+      "id": "loan-gold",
+      "description": "A stack of gold coins.",
+      "imageUrl": "https://images.unsplash.com/photo-1738594399130-9bab1808f8dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnb2xkJTIwY29pbnMlMjBzdGFja3xlbnwwfHx8fDE3NjIxOTc5NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gold coins stack"
+    },
+    {
+      "id": "loan-tractor",
+      "description": "A woman standing next to a tractor in a field.",
+      "imageUrl": "https://images.unsplash.com/photo-1609252285522-ed0ebdd43551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHRyYWN0b3J8ZW58MHx8fHwxNzYyMTk3OTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman tractor"
+    },
+    {
+      "id": "loan-solar-pump",
+      "description": "Solar panels in a farm field.",
+      "imageUrl": "https://images.unsplash.com/photo-1606711381828-eca2adb3b180?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzb2xhciUyMHBhbmVscyUyMGZhcm18ZW58MHx8fHwxNzYyMTk4MDk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar panels farm"
+    },
+    {
+      "id": "loan-warehouse",
+      "description": "Sacks of grain in a warehouse.",
+      "imageUrl": "https://images.unsplash.com/photo-1569718974246-7b898eae87d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3YXJlaG91c2UlMjBncmFpbiUyMHNhY2tzfGVufDB8fHx8MTc2MjE5ODA5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse grain sacks"
+    },
+    {
+      "id": "article-1",
+      "description": "A farmer standing in a flourishing green field at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmYXJtZXJ8ZW58MHx8fHwxNzYyMjE5NzU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "farmer field"
+    },
+    {
+      "id": "article-2",
+      "description": "A drone flying over a farm, representing modern agricultural technology.",
+      "imageUrl": "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZ3JpY3VsdHVyZSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzYyMzAxMzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "agriculture technology"
+    },
+    {
+      "id": "article-3",
+      "description": "Hands holding a seedling, symbolizing sustainable and organic farming.",
+      "imageUrl": "https://images.unsplash.com/photo-1492496913980-501348b61469?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXN0YWluYWJsZSUyMGZhcm1pbmd8ZW58MHx8fHwxNzYyMjE5ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sustainable farming"
+    }
+  ]
+}

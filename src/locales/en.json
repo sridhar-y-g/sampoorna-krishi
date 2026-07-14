@@ -1,0 +1,540 @@
+
+{
+  "cropLoans": {
+    "pageTitle": "Crop Loan Options",
+    "pageDescription": "Find the best financing solutions for your agricultural needs.",
+    "interestRate": "Interest Rate",
+    "maxAmount": "Max Amount",
+    "tenure": "Tenure",
+    "eligibility": "Eligibility",
+    "applyNow": "Apply Now",
+    "officialLink": "Official Link",
+    "loans": {
+      "kcc": {
+        "title": "Kisan Credit Card (KCC)",
+        "provider": "By National Bank for Agriculture and Rural Development (NABARD)",
+        "interestRate": "7% p.a. (subject to govt. subsidies)",
+        "maxAmount": "Up to ₹3 lakhs",
+        "tenure": "Up to 5 years",
+        "eligibility": [
+          "All farmers - individuals/joint cultivators",
+          "Tenant farmers, oral lessees & sharecroppers",
+          "SHGs or Joint Liability Groups of farmers"
+        ]
+      },
+      "gold-loan": {
+        "title": "Agri Gold Loan",
+        "provider": "By State Bank of India (SBI)",
+        "interestRate": "From 9.95% p.a.",
+        "maxAmount": "Up to ₹50 lakhs",
+        "tenure": "Up to 3 years",
+        "eligibility": [
+          "Farmers owning gold ornaments",
+          "Minimum 18 years of age"
+        ]
+      },
+      "tractor-loan": {
+        "title": "Tractor Loan",
+        "provider": "By HDFC Bank",
+        "interestRate": "Varies (check with bank)",
+        "maxAmount": "Up to 90% of tractor cost",
+        "tenure": "1 to 7 years",
+        "eligibility": [
+          "Minimum 2 acres of land ownership",
+          "Regular income source"
+        ]
+      },
+      "solar-pump-loan": {
+        "title": "Solar Pump Set Loan",
+        "provider": "Multiple banks under government schemes",
+        "interestRate": "Varies (Subsidized)",
+        "maxAmount": "Up to 90% of the cost",
+        "tenure": "Up to 10 years",
+        "eligibility": [
+          "Farmers with land records",
+          "Small & marginal farmers prioritized"
+        ]
+      },
+      "warehouse-receipt-loan": {
+        "title": "Warehouse Receipt Loan",
+        "provider": "By various commercial banks",
+        "interestRate": "Varies",
+        "maxAmount": "Up to 80% of produce market value",
+        "tenure": "Up to 12 months",
+        "eligibility": [
+          "Produce stored in registered warehouses"
+        ]
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": {
+      "title": "Welcome, Farmer!",
+      "description": "Your agricultural dashboard for success."
+    },
+    "weather": {
+      "summary": "Highs in the low 80s Fahrenheit (around 27-28 degrees Celsius), lows in the mid-70s Fahrenheit (around 24-25 degrees Celsius)",
+      "details": "A slight chance of showers, mainly in the afternoons. Total weekly rainfall is expected to be less than half an inch."
+    },
+    "viewDetails": "View Details",
+    "articles": {
+      "title": "Latest Articles & News",
+      "readMore": "Read More",
+      "article1": {
+        "title": "5 Tips for Sustainable Farming",
+        "description": "Learn how to implement sustainable practices on your farm to improve soil health and increase long-term profitability."
+      },
+      "article2": {
+        "title": "The Future of Agri-Tech",
+        "description": "Discover how new technologies like drones and AI are revolutionizing agriculture and helping farmers increase yields."
+      },
+      "article3": {
+        "title": "Understanding Government Schemes",
+        "description": "A deep dive into the latest government programs designed to support farmers and boost the agricultural sector."
+      }
+    },
+    "cards": {
+      "cropLoans": {
+        "title": "Crop Loans",
+        "description": "Explore loan options for your crops."
+      },
+      "marketPrices": {
+        "title": "Market Prices",
+        "description": "Get price forecasts for your produce."
+      },
+      "weatherAdvisory": {
+        "title": "Weather Advisory",
+        "description": "Stay updated on weather conditions."
+      },
+      "governmentSchemes": {
+        "title": "Government Schemes",
+        "description": "Discover beneficial government programs."
+      },
+      "cropHealthDiagnosis": {
+        "title": "Crop Health Diagnosis",
+        "description": "Diagnose plant issues with AI."
+      },
+      "aiFarmingTips": {
+        "title": "AI Farming Tips",
+        "description": "AI advice for your farm stage."
+      },
+      "subsidyFinder": {
+        "title": "Subsidy Finder",
+        "description": "AI search for govt. subsidies."
+      },
+      "aiFertilizerAdvisor": {
+        "title": "AI Fertilizer Advisor",
+        "description": "AI fertilizer advice & general info."
+      },
+      "cropInsurance": {
+        "title": "Crop Insurance",
+        "description": "Get AI damage assessment for claims."
+      },
+      "manageApplications": {
+        "title": "Manage Applications",
+        "description": "View and process loan applications."
+      },
+      "agriEcommerce": {
+        "title": "Agri E-Commerce",
+        "description": "Buy seeds, fertilizers, and lease machinery."
+      }
+    }
+  },
+  "marketPrice": {
+    "pageTitle": "Get Market Price Forecast",
+    "pageDescription": "Enter details to predict the market price for your crop.",
+    "form": {
+      "cropName": "Crop Name",
+      "enterCrop": "e.g., Rice, Wheat",
+      "marketLocation": "Market Location",
+      "selectLocation": "Select a location",
+      "predictionDate": "Date for Prediction",
+      "pickDate": "Pick a date",
+      "submitButton": "Predict Price",
+      "loadingButton": "Forecasting..."
+    },
+    "loading": "Generating your forecast...",
+    "result": {
+      "title": "Price Prediction Result",
+      "readAloud": "Read Aloud",
+      "reading": "Reading...",
+      "priceUnit": "per quintal",
+      "reasoning": "Reasoning:",
+      "confidence": "Confidence:",
+      "titleForSpeech": "Price prediction for {{crop}} in {{location}} on {{date}}",
+      "forecast": "Forecast"
+    }
+  },
+  "weatherAdvisory": {
+    "pageTitle": "AI Weather Advisory",
+    "pageDescription": "Receive localized, crop-specific weather advisories.",
+    "form": {
+      "title": "Get Your Advisory",
+      "description": "Provide details about your farm to receive a tailored weather advisory.",
+      "cropType": {
+        "label": "Crop Type",
+        "placeholder": "E.g., Rice, Wheat, Maize",
+        "validation": "Crop type must be at least 2 characters."
+      },
+      "location": {
+        "label": "Your Location (e.g., village or district)",
+        "placeholder": "E.g., Srirangapatna",
+        "validation": "Location is required."
+      },
+      "farmingStage": {
+        "label": "Current Farming Stage",
+        "placeholder": "Select a stage",
+        "validation": "Please select a farming stage."
+      },
+      "submitButton": "Get Advisory",
+      "loadingButton": "Generating..."
+    },
+    "loading": "Checking the weather and preparing your advisory...",
+    "result": {
+      "title": "Your Weather Advisory"
+    },
+    "farmingStages": {
+      "planting": "Planting",
+      "growing": "Growing",
+      "flowering": "Flowering",
+      "harvesting": "Harvesting"
+    }
+  },
+  "schemes": {
+    "pageTitle": "Government Scheme Hub",
+    "pageDescription": "Discover and learn about relevant central and state government schemes.",
+    "keyBenefit": "Key Benefit",
+    "eligibility": "Eligibility",
+    "applyNow": "Apply Now",
+    "officialLink": "Official Link",
+    "schemes": {
+      "pm-kisan": {
+        "title": "PM-KISAN Scheme",
+        "description": "An income support scheme for all landholding farmer families.",
+        "eligibility": "All farmer families with cultivable land.",
+        "benefits": {
+          "0": "₹6,000 per year in three equal installments."
+        }
+      },
+      "pmksy": {
+        "title": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
+        "description": "Aims to enhance water use efficiency with \"Per Drop More Crop\".",
+        "eligibility": "All farmers.",
+        "benefits": {
+          "0": "Subsidies on micro-irrigation systems like drips and sprinklers."
+        }
+      },
+      "shc": {
+        "title": "Soil Health Card (SHC) Scheme",
+        "description": "Provides farmers with information on the nutrient status of their soil.",
+        "eligibility": "All farmers.",
+        "benefits": {
+          "0": "Soil health card and crop-wise fertilizer recommendations."
+        }
+      },
+      "pmfby": {
+        "title": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        "description": "Provides insurance coverage and financial support to farmers in the event of crop failure.",
+        "eligibility": "All farmers including sharecroppers and tenant farmers growing notified crops in notified areas.",
+        "benefits": {
+          "0": "Financial support against crop loss due to natural calamities, pests or diseases."
+        }
+      },
+      "nmsa": {
+        "title": "National Mission for Sustainable Agriculture (NMSA)",
+        "description": "Aims to enhance agricultural productivity especially in rainfed areas focusing on integrated farming, water use efficiency, soil health management.",
+        "eligibility": "All farmers, with a special focus on small and marginal farmers.",
+        "benefits": {
+          "0": "Financial assistance for various sustainable practices like organic farming, soil conservation, and water management."
+        }
+      },
+      "pkvy": {
+        "title": "Paramparagat Krishi Vikas Yojana (PKVY)",
+        "description": "Promotes organic farming through the adoption of organic village by cluster approach and PGS certification.",
+        "eligibility": "Clusters of farmers who are willing to take up organic farming.",
+        "benefits": {
+          "0": "Financial assistance of ₹50,000 per hectare for 3 years for organic inputs, certification, and marketing."
+        }
+      },
+      "kisan-samman": {
+        "title": "Kisan Samman Nidhi Yojana",
+        "description": "A central sector scheme with 100% funding from Government of India to supplement the financial needs of the farmers.",
+        "eligibility": "All small and marginal farmer families having a combined land holding/ownership of up to 2 hectares.",
+        "benefits": {
+          "0": "Income support of ₹6000 per year in three equal installments."
+        }
+      }
+    }
+  },
+  "cropDiagnosis": {
+    "pageTitle": "AI Crop Health Diagnosis",
+    "pageDescription": "Upload a photo of an ailing plant for an AI diagnosis.",
+    "form": {
+      "title": "Provide Diagnosis Details",
+      "description": "For the best results, use a clear photo and provide accurate details.",
+      "fileSizeError": "File size must be less than 4MB.",
+      "fileReadError": "Failed to read file.",
+      "photoRequiredError": "Please upload a photo first.",
+      "upload": {
+        "click": "Click to upload",
+        "orDrag": "or drag and drop",
+        "fileTypes": "PNG, JPG, or WEBP (max 4MB)"
+      },
+      "cropName": {
+        "label": "Crop Name",
+        "placeholder": "E.g., Mango, Tomato, Rice",
+        "validation": "Crop name must be at least 2 characters."
+      },
+      "symptoms": {
+        "label": "Describe Symptoms",
+        "placeholder": "E.g., 'Black spots on leaves', 'Yellowing of stem', 'Wilting'",
+        "validation": "Please describe the symptoms in at least 10 characters."
+      },
+      "submitButton": "Get Diagnosis",
+      "loadingButton": "Diagnosing..."
+    },
+    "apiError": "Failed to get diagnosis. Please try again.",
+    "loading": "AI is analyzing your plant photo...",
+    "result": {
+      "title": "Diagnosis Result",
+      "diagnosis": "Diagnosis",
+      "treatment": "Treatment Recommendations"
+    }
+  },
+  "farmingTips": {
+    "pageTitle": "AI Farming Tips",
+    "pageDescription": "Get personalized AI advice for your farm stage.",
+    "form": {
+      "title": "Get Personalized Tips",
+      "description": "Provide details about your crop and farm to receive tailored advice.",
+      "cropName": {
+        "label": "Crop Name",
+        "placeholder": "E.g., Mango, Cotton, Sugarcane",
+        "validation": "Crop name is required."
+      },
+      "farmingStage": {
+        "label": "Current Farming Stage",
+        "placeholder": "Select a stage",
+        "validation": "Please select a farming stage."
+      },
+      "soilType": {
+        "label": "Soil Type (Optional)",
+        "placeholder": "E.g., Red, Black, Alluvial"
+      },
+      "submitButton": "Get Tips",
+      "loadingButton": "Generating..."
+    },
+    "loading": "AI is crafting your personalized farming tips...",
+    "result": {
+      "title": "Personalized Farming Tips",
+      "category": "Category",
+      "readAloud": "Read Aloud",
+      "reading": "Reading...",
+      "relatedVideos": "Related Videos",
+      "disclaimer": "These AI-generated tips are for guidance. Always consider local conditions and expert advice."
+    },
+    "farmingStages": {
+      "planting": "Planting",
+      "growing": "Growing",
+      "flowering": "Flowering",
+      "harvesting": "Harvesting"
+    }
+  },
+  "subsidyFinder": {
+    "pageTitle": "AI Subsidy Finder",
+    "pageDescription": "Use natural language to find applicable agricultural subsidies.",
+    "form": {
+      "title": "Find Your Subsidies",
+      "description": "Describe your farm, crops, and what you're looking for.",
+      "query": {
+        "placeholder": "E.g., 'I am a small farmer in Karnataka growing rice and I need help buying a new tractor.'",
+        "validation": "Please describe your needs in a bit more detail."
+      },
+      "submitButton": "Find Subsidies",
+      "loadingButton": "Searching..."
+    },
+    "loading": "Searching for relevant subsidies...",
+    "result": {
+      "title": "Applicable Subsidies Found"
+    }
+  },
+  "fertilizerAdvisor": {
+    "pageTitle": "AI Fertilizer Advisor",
+    "pageDescription": "Get personalized AI fertilizer recommendations for your farm.",
+    "form": {
+      "title": "Get Fertilizer Advice",
+      "description": "Provide details about your crop and farm to receive tailored advice.",
+      "cropName": {
+        "label": "Crop Name",
+        "placeholder": "E.g., Mango, Cotton, Sugarcane",
+        "validation": "Crop name is required."
+      },
+      "farmingStage": {
+        "label": "Current Farming Stage",
+        "placeholder": "Select a stage",
+        "validation": "Please select a farming stage."
+      },
+      "soilType": {
+        "label": "Soil Type (Optional)",
+        "placeholder": "E.g., Red, Black, Alluvial"
+      },
+      "submitButton": "Get Advice",
+      "loadingButton": "Generating..."
+    },
+    "loading": "AI is preparing your fertilizer recommendations...",
+    "result": {
+      "title": "Fertilizer Recommendations",
+      "readAloud": "Read Aloud",
+      "reading": "Reading...",
+      "whyRecommended": "Why this is recommended:",
+      "applicationGuidance": "Application Guidance:",
+      "typicalAmount": "Typical Amount:",
+      "generalNotes": "General Notes",
+      "disclaimer": "These AI-generated recommendations are for guidance. Always perform a soil test for accurate needs and consult local agricultural experts."
+    }
+  },
+  "cropInsurance": {
+    "pageTitle": "AI Crop Insurance Assessment",
+    "pageDescription": "Get a preliminary AI-powered damage assessment for your insured crops.",
+    "form": {
+      "title": "Submit a Damage Claim",
+      "description": "Provide details about the incident to get a preliminary damage assessment.",
+      "cropType": {
+        "label": "Crop Type",
+        "placeholder": "e.g., Rice, Wheat",
+        "validation": "Crop type is required."
+      },
+      "location": {
+        "label": "Location of Farm",
+        "placeholder": "e.g., Mandya, Karnataka",
+        "validation": "Location is required."
+      },
+      "incidentDate": {
+        "label": "Date of Incident",
+        "placeholder": "Pick a date",
+        "validation": "Date of incident is required."
+      },
+      "incidentDescription": {
+        "label": "Describe the Incident",
+        "placeholder": "e.g., Heavy rainfall and flooding for 3 days",
+        "validation": "Please describe the incident (min 10 characters)."
+      },
+      "submitButton": "Get Assessment",
+      "loadingButton": "Assessing Damage..."
+    },
+    "loading": "AI is analyzing simulated satellite and weather data for your assessment...",
+    "result": {
+      "title": "Preliminary Damage Assessment",
+      "readAloud": "Read Aloud",
+      "reading": "Reading...",
+      "estimatedDamage": "Estimated Damage",
+      "confidence": "Confidence",
+      "assessmentSummary": {
+        "title": "Assessment Summary"
+      },
+      "nextSteps": {
+        "title": "Recommended Next Steps"
+      }
+    }
+  },
+  "profile": {
+    "pageTitle": "Profile",
+    "pageDescription": "View and manage your profile information.",
+    "form": {
+      "title": "Edit Your Profile",
+      "description": "Keep your personal information up to date.",
+      "fileSizeError": "File size must be less than 2MB.",
+      "fileReadError": "Failed to read the file.",
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "validation": "Name must be at least 2 characters."
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address",
+        "validation": "Please enter a valid email."
+      },
+      "submitButton": "Save Changes",
+      "loadingButton": "Saving..."
+    }
+  },
+  "settings": {
+    "pageTitle": "Settings",
+    "pageDescription": "Configure your application settings.",
+    "theme": {
+      "title": "Appearance",
+      "description": "Customize the look and feel of the app.",
+      "label": "Theme",
+      "selectPlaceholder": "Select theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "manageApplications": {
+    "pageTitle": "Manage Applications",
+    "pageDescription": "View and process loan and scheme applications.",
+    "submittedApplications": {
+      "title": "Submitted Applications",
+      "description": "Review and manage all submitted applications."
+    },
+    "table": {
+      "applicantName": "Applicant Name",
+      "schemeLoanName": "Scheme/Loan Name",
+      "type": "Type",
+      "submissionDate": "Submission Date",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "types": {
+      "loan": "Loan",
+      "scheme": "Scheme"
+    },
+    "statuses": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "actions": {
+      "approve": "Approve",
+      "reject": "Reject",
+      "processed": "Processed"
+    }
+  },
+  "agriVehicles": {
+    "pageTitle": "Agricultural Vehicles in India",
+    "pageDescription": "Explore categories of farming machinery, estimated market prices, and key specifications.",
+    "compareVehicles": "Vehicle Comparison",
+    "compactTractors": "Compact/Orchard Tractors",
+    "utilityTractors": "Utility Tractors",
+    "heavyTractors": "Heavy-Duty Tractors",
+    "harvesters": "Combine Harvesters",
+    "weeders": "Power Weeders & Tillers",
+    "sprayers": "Self-Propelled Sprayers",
+    "implements": "Attachments & Implements",
+    "brand": "Brand",
+    "priceRange": "Price Range",
+    "power": "Power/Horsepower",
+    "usage": "Best For"
+  },
+  "animalHusbandry": {
+    "pageTitle": "Animal Husbandry & Direct Marketplace",
+    "pageDescription": "Rearing tips, selective breeding guidelines, yield projections, and direct listing options.",
+    "livestockAdvisory": "Advisory & Breeding Guidelines",
+    "directMarketplace": "Direct Livestock Marketplace",
+    "yieldCalculator": "Yield Projection Simulator",
+    "sellLivestock": "Sell Your Livestock",
+    "livestockType": "Livestock Type",
+    "cattle": "Cattle",
+    "poultry": "Poultry",
+    "sheep": "Sheep",
+    "goats": "Goats",
+    "age": "Age",
+    "price": "Price",
+    "location": "Location",
+    "contact": "Contact Info",
+    "listAnimal": "List Livestock for Sale",
+    "simulatedOutput": "Simulated Output"
+  }
+}
