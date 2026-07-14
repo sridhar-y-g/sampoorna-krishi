@@ -22,7 +22,7 @@ To host on Vercel and Render, your project files must be on GitHub.
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/YOUR_GITHUB_USERNAME/sampoorna-krishi.git
+   git remote add origin https://github.com/sridhar-y-g/sampoorna-krishi.git
    git push -u origin main
    ```
 
@@ -40,8 +40,8 @@ Render automatically detects Python applications and hosts them for free.
    *   **Build Command**: `pip install -r requirements.txt`
    *   **Start Command**: `uvicorn main:app --host 0.0.0.0 --port 10000`
 5. Click **Advanced** and add the **Environment Variables**:
-   *   `DATABASE_URL`: `mysql+pymysql://3KygEpsFHKTdFHe.root:WSqw2lEj9VPOzKHM@gateway01.ap-southeast-1.prod.alicloud.tidbcloud.com:4000/test`
-   *   `SECRET_KEY`: `sampoorna-krishi-super-secret-jwt-key-change-in-production-2024`
+   *   `DATABASE_URL`: `mysql+pymysql://<DB_USER>:<DB_PASSWORD>@<DB_HOST>:<DB_PORT>/<DB_NAME>`
+   *   `SECRET_KEY`: `<YOUR_JWT_SECRET_KEY>`
 6. Click **Deploy Web Service**. Render will generate a URL like `https://sampoorna-backend.onrender.com`.
 
 ---
@@ -58,9 +58,9 @@ Vercel is the official host for Next.js and deploys it automatically.
    *   Value: `https://sampoorna-backend.onrender.com/api` (this is the Render backend URL you created in Step 2)
 6. Add the AI and Weather API keys so that Server Actions can connect to them:
    *   Key: `GEMINI_API_KEY`
-   *   Value: `AIzaSyCqpG6ypuS7hM0mnriVUqlE_pKbjBb1wpk` (or your custom Gemini key)
+   *   Value: `<YOUR_GEMINI_API_KEY>`
    *   Key: `OPENWEATHER_API_KEY`
-   *   Value: `0b43bc517b9250fe6cbf0e4425591e30` (or your custom OpenWeather key)
+   *   Value: `<YOUR_OPENWEATHER_API_KEY>`
 7. Click **Deploy**. Vercel will compile and host the app, providing a URL like `https://sampoorna-krishi.vercel.app`.
 
 ---
