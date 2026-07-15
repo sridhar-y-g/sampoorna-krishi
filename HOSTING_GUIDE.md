@@ -52,7 +52,7 @@ Vercel is the official host for Next.js and deploys it automatically.
 1. Go to [Vercel](https://vercel.com/) and sign up using your GitHub account.
 2. Click **Add New** > **Project**.
 3. Import your `sampoorna-krishi` repository.
-4. Vercel will auto-detect Next.js.
+4. Under **Build & Development Settings**, make sure the **Framework Preset** is set to **Next.js**. (If it is set to "Other", Vercel will look for a static `public` folder and fail with your error).
 5. In the **Environment Variables** section, add:
    *   Key: `NEXT_PUBLIC_API_URL`
    *   Value: `https://sampoorna-backend.onrender.com/api` (this is the Render backend URL you created in Step 2)
